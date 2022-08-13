@@ -1,0 +1,8 @@
+{
+  "name": "d92feecd-4a82-4a23-b33a-744c7782fa01",
+  "fromTable": "V_TIMESHEET_ALLOCATIONS_CURRENT_WEEK",
+  "fromColumn": "SYS_INSERT_DATE",
+  "toTable": "LocalDateTable_d20b07c4-b754-447f-9d4a-98e4d36c6c2f",
+  "toColumn": "Date",
+  "joinOnDateBehavior": "datePartOnly"
+}

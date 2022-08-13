@@ -1,0 +1,8 @@
+{
+  "name": "1a958950-8f29-41b0-a139-edfd1a837d11",
+  "fromTable": "V_MISSING_TIMESHEET_COUNT_CURRENT_WEEK",
+  "fromColumn": "WEEK_ENDING_DATE",
+  "toTable": "LocalDateTable_a4bacd0f-f083-4ac6-a457-ca93fec88adc",
+  "toColumn": "Date",
+  "joinOnDateBehavior": "datePartOnly"
+}

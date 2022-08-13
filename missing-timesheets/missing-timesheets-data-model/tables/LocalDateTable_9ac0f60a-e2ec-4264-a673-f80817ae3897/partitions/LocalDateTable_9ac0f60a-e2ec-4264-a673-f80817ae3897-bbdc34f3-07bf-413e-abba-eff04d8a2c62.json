@@ -1,0 +1,8 @@
+{
+  "name": "LocalDateTable_9ac0f60a-e2ec-4264-a673-f80817ae3897-bbdc34f3-07bf-413e-abba-eff04d8a2c62",
+  "mode": "import",
+  "source": {
+    "type": "calculated",
+    "expression": "Calendar(Date(Year(MIN('V_TIMESHEET_ALLOCATIONS_CURRENT_WEEK'[WEEK_ENDING_DATE])), 1, 1), Date(Year(MAX('V_TIMESHEET_ALLOCATIONS_CURRENT_WEEK'[WEEK_ENDING_DATE])), 12, 31))"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "TIMESHEET_HOURS",
+  "dataType": "double",
+  "sourceColumn": "TIMESHEET_HOURS",
+  "lineageTag": "0ebd82b5-d430-44c2-b971-a13c02ce8d05",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

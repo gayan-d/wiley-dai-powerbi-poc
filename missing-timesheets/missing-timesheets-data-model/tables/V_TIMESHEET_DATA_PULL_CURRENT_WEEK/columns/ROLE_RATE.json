@@ -1,0 +1,17 @@
+{
+  "name": "ROLE_RATE",
+  "dataType": "double",
+  "sourceColumn": "ROLE_RATE",
+  "lineageTag": "ac6e9190-efdd-41b5-98ac-603e87ab6ff7",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

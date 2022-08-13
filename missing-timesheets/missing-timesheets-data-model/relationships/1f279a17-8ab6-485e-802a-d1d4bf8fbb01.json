@@ -1,0 +1,8 @@
+{
+  "name": "1f279a17-8ab6-485e-802a-d1d4bf8fbb01",
+  "fromTable": "V_RESOURCE_WITH_MISSING_TIME_CURRENT_WEEK",
+  "fromColumn": "SYS_INSERT_DATE",
+  "toTable": "LocalDateTable_419fde10-4390-4d70-9bef-07052acd0055",
+  "toColumn": "Date",
+  "joinOnDateBehavior": "datePartOnly"
+}

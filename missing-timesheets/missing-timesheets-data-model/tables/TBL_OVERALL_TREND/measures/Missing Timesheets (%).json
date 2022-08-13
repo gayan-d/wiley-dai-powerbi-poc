@@ -1,0 +1,6 @@
+{
+  "name": "Missing Timesheets (%)",
+  "expression": "LOOKUPVALUE(TBL_OVERALL_TREND[PERCENTAGE_OF_MISSING_TIME_OVERALL], TBL_OVERALL_TREND[WEEK_ENDING_DATE], LASTDATE(TBL_OVERALL_TREND[WEEK_ENDING_DATE]))",
+  "formatString": "0.00%;-0.00%;0.00%",
+  "lineageTag": "c048fcad-1cee-4338-882c-71a070a831f7"
+}

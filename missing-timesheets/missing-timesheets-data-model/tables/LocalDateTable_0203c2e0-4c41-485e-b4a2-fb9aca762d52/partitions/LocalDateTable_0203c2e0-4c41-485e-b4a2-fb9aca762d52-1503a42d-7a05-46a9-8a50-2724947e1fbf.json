@@ -1,0 +1,8 @@
+{
+  "name": "LocalDateTable_0203c2e0-4c41-485e-b4a2-fb9aca762d52-1503a42d-7a05-46a9-8a50-2724947e1fbf",
+  "mode": "import",
+  "source": {
+    "type": "calculated",
+    "expression": "Calendar(Date(Year(MIN('V_MISSING_TIMESHEET_COUNT_CURRENT_WEEK'[SYS_INSERT_DATE])), 1, 1), Date(Year(MAX('V_MISSING_TIMESHEET_COUNT_CURRENT_WEEK'[SYS_INSERT_DATE])), 12, 31))"
+  }
+}

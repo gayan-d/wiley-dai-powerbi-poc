@@ -1,0 +1,17 @@
+{
+  "name": "TOTAL",
+  "dataType": "double",
+  "sourceColumn": "TOTAL",
+  "lineageTag": "d76f58aa-1e5a-4cbb-9244-32b539d1dba1",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

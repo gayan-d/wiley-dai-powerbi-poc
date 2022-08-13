@@ -1,0 +1,13 @@
+{
+  "name": "TASK_NAME",
+  "dataType": "string",
+  "sourceColumn": "TASK_NAME",
+  "lineageTag": "46050842-85c8-4bdf-8fd3-264b59082f35",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

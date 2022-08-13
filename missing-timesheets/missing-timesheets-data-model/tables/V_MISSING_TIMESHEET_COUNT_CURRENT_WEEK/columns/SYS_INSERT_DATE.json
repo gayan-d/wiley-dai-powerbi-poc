@@ -1,0 +1,25 @@
+{
+  "name": "SYS_INSERT_DATE",
+  "dataType": "dateTime",
+  "sourceColumn": "SYS_INSERT_DATE",
+  "formatString": "General Date",
+  "lineageTag": "527b083e-aaad-428a-bf46-fe4245c7e56d",
+  "summarizeBy": "none",
+  "variations": [
+    {
+      "name": "Variation",
+      "relationship": "4a1ba929-842c-4bfd-9ed1-4e2818e088b6",
+      "defaultHierarchy": {
+        "table": "LocalDateTable_0203c2e0-4c41-485e-b4a2-fb9aca762d52",
+        "hierarchy": "Date Hierarchy"
+      },
+      "isDefault": true
+    }
+  ],
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

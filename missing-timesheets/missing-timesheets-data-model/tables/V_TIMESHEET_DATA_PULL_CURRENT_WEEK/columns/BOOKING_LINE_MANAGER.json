@@ -1,0 +1,13 @@
+{
+  "name": "BOOKING_LINE_MANAGER",
+  "dataType": "string",
+  "sourceColumn": "BOOKING_LINE_MANAGER",
+  "lineageTag": "a43b9ebe-cc77-4b36-87e5-625b44c6b49a",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

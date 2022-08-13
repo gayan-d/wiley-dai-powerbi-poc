@@ -1,0 +1,8 @@
+{
+  "name": "LocalDateTable_28cd53d4-72e2-45a2-9887-3ff407e30bc0-66068401-fd8d-445b-83f2-cd1d87da2263",
+  "mode": "import",
+  "source": {
+    "type": "calculated",
+    "expression": "Calendar(Date(Year(MIN('TBL_OVERALL_TREND'[SYS_INSERT_DATE])), 1, 1), Date(Year(MAX('TBL_OVERALL_TREND'[SYS_INSERT_DATE])), 12, 31))"
+  }
+}

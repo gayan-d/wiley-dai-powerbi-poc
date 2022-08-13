@@ -1,0 +1,15 @@
+{
+  "type": "calculated",
+  "name": "X_Axis",
+  "dataType": "string",
+  "isDataTypeInferred": true,
+  "expression": "\"Wk\"&  1 + WEEKNUM (TBL_OVERALL_TREND[WEEK_ENDING_DATE] )-WEEKNUM( STARTOFMONTH (TBL_OVERALL_TREND[WEEK_ENDING_DATE]))&\" - \"&Format(TBL_OVERALL_TREND[WEEK_ENDING_DATE],\"mmm\") ",
+  "lineageTag": "961ecb97-7b10-4619-b269-5f7399f28c39",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

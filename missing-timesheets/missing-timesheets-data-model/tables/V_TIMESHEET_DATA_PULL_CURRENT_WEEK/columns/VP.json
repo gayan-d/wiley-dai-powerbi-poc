@@ -1,0 +1,13 @@
+{
+  "name": "VP",
+  "dataType": "string",
+  "sourceColumn": "VP",
+  "lineageTag": "6b76352e-aab3-46fe-ac52-5ebb03ae0ff8",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

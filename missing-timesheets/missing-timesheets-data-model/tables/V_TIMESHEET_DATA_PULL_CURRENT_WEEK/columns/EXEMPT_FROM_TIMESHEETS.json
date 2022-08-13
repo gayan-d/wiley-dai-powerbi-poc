@@ -1,0 +1,13 @@
+{
+  "name": "EXEMPT_FROM_TIMESHEETS",
+  "dataType": "string",
+  "sourceColumn": "EXEMPT_FROM_TIMESHEETS",
+  "lineageTag": "6ccd4b71-5412-42f5-8615-36257d2b1b94",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

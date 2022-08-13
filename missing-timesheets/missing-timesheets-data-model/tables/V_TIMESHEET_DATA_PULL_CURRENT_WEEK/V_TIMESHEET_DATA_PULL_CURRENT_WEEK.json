@@ -1,0 +1,10 @@
+{
+  "name": "V_TIMESHEET_DATA_PULL_CURRENT_WEEK",
+  "lineageTag": "3694a4eb-b669-42b4-86c5-5cce27c5b01e",
+  "annotations": [
+    {
+      "name": "PBI_ResultType",
+      "value": "Table"
+    }
+  ]
+}

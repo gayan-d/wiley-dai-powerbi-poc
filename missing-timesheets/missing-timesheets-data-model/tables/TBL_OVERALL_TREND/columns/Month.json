@@ -1,0 +1,15 @@
+{
+  "type": "calculated",
+  "name": "Month",
+  "dataType": "string",
+  "isDataTypeInferred": true,
+  "expression": "FORMAT(TBL_OVERALL_TREND[WEEK_ENDING_DATE],\"Mmm\")",
+  "lineageTag": "6ca3a1d2-f6c5-47b9-9d73-a50a8b8e28b2",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

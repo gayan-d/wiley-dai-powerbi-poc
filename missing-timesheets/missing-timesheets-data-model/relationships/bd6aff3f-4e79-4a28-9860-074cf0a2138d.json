@@ -1,0 +1,8 @@
+{
+  "name": "bd6aff3f-4e79-4a28-9860-074cf0a2138d",
+  "fromTable": "V_TIMESHEET_DATA_PULL_CURRENT_WEEK",
+  "fromColumn": "WEEK_ENDING_DATE",
+  "toTable": "LocalDateTable_8196d55a-c4b4-4c01-b5db-65468315a092",
+  "toColumn": "Date",
+  "joinOnDateBehavior": "datePartOnly"
+}

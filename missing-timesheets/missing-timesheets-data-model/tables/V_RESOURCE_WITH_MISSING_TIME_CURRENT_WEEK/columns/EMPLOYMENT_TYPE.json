@@ -1,0 +1,13 @@
+{
+  "name": "EMPLOYMENT_TYPE",
+  "dataType": "string",
+  "sourceColumn": "EMPLOYMENT_TYPE",
+  "lineageTag": "ac23c7ce-2f81-4cb0-aedf-7361e6fac9ac",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

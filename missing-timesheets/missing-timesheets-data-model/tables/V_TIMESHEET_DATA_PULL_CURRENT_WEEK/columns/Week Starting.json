@@ -1,0 +1,15 @@
+{
+  "type": "calculated",
+  "name": "Week Starting",
+  "dataType": "string",
+  "isDataTypeInferred": true,
+  "expression": "FORMAT(V_TIMESHEET_DATA_PULL_CURRENT_WEEK[WEEK_STARTING_DATE],\"dd-mmm-YY\")",
+  "lineageTag": "54ba42d4-9074-49d6-b03f-5b30893ec074",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

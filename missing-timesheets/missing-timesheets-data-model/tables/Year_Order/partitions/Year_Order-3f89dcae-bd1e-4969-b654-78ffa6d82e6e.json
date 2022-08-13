@@ -1,0 +1,14 @@
+{
+  "name": "Year_Order-3f89dcae-bd1e-4969-b654-78ffa6d82e6e",
+  "mode": "import",
+  "source": {
+    "type": "m",
+    "expression": [
+      "let",
+      "    Source = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText(\"i45W8krMK00sqlTSUTJUitWJVnJLTSqCChiBBXwTi5IzgDxjMM+xqKAoMwfINYFKghSagtlepXmpQI4ZlJMDkjGHaCpNLy0uAXItwNzg1IKS1Nyk1CKgiCVYxD+5JB/CNzQAC/jll8FUGELc5ZKaDBcBOiwWAA==\", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [Year = _t, Index = _t]),",
+      "    #\"Changed Type\" = Table.TransformColumnTypes(Source,{{\"Index\", Int64.Type}})",
+      "in",
+      "    #\"Changed Type\""
+    ]
+  }
+}

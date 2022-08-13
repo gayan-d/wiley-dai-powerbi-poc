@@ -1,0 +1,25 @@
+{
+  "name": "WEEK_STARTING_DATE",
+  "dataType": "dateTime",
+  "sourceColumn": "WEEK_STARTING_DATE",
+  "formatString": "General Date",
+  "lineageTag": "76096733-b33c-4941-ae95-0a4dbb1fe84f",
+  "summarizeBy": "none",
+  "variations": [
+    {
+      "name": "Variation",
+      "relationship": "1d7a0e31-641b-4aa0-92d7-1687025f7e52",
+      "defaultHierarchy": {
+        "table": "LocalDateTable_f1a72644-2978-446e-988f-38054a5f5a5d",
+        "hierarchy": "Date Hierarchy"
+      },
+      "isDefault": true
+    }
+  ],
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

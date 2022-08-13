@@ -1,0 +1,16 @@
+{
+  "type": "calculated",
+  "name": "FY",
+  "dataType": "int64",
+  "isDataTypeInferred": true,
+  "expression": "IF(MONTH(TBL_OVERALL_TREND[WEEK_ENDING_DATE])>4,YEAR(TBL_OVERALL_TREND[WEEK_ENDING_DATE])+1,YEAR(TBL_OVERALL_TREND[WEEK_ENDING_DATE]))",
+  "formatString": "0",
+  "lineageTag": "14bf479a-7921-492a-87d6-f608d6f53da2",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "V_RESOURCE_WITH_MISSING_TIME_CURRENT_WEEK",
+  "lineageTag": "d078a702-0ed1-44b0-905d-2db747dcac21",
+  "annotations": [
+    {
+      "name": "PBI_ResultType",
+      "value": "Table"
+    }
+  ]
+}

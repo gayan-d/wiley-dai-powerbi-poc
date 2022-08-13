@@ -1,0 +1,17 @@
+{
+  "name": "WEEKLY_VALUE",
+  "dataType": "double",
+  "sourceColumn": "WEEKLY_VALUE",
+  "lineageTag": "d7f82826-feba-4008-8b8c-e37bc3b6b41e",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

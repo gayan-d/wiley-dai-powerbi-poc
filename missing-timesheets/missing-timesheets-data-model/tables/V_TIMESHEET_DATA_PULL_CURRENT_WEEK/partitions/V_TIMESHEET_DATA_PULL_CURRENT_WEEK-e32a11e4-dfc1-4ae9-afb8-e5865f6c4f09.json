@@ -1,0 +1,16 @@
+{
+  "name": "V_TIMESHEET_DATA_PULL_CURRENT_WEEK-e32a11e4-dfc1-4ae9-afb8-e5865f6c4f09",
+  "mode": "import",
+  "source": {
+    "type": "m",
+    "expression": [
+      "let",
+      "    Source = Odbc.DataSource(\"dsn=snowflake\", [HierarchicalNavigation=true]),",
+      "    PROD_EDW_Database = Source{[Name=\"PROD_EDW\",Kind=\"Database\"]}[Data],",
+      "    CLARITY_Schema = PROD_EDW_Database{[Name=\"CLARITY\",Kind=\"Schema\"]}[Data],",
+      "    V_TIMESHEET_DATA_PULL_CURRENT_WEEK_View = CLARITY_Schema{[Name=\"V_TIMESHEET_DATA_PULL_CURRENT_WEEK\",Kind=\"View\"]}[Data]",
+      "in",
+      "    V_TIMESHEET_DATA_PULL_CURRENT_WEEK_View"
+    ]
+  }
+}

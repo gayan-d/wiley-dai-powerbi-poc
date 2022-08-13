@@ -1,0 +1,13 @@
+{
+  "name": "RESOURCE_MANAGER_TIMESHEET",
+  "dataType": "string",
+  "sourceColumn": "RESOURCE_MANAGER_TIMESHEET",
+  "lineageTag": "9ff9cdc2-23f2-4a32-b29f-01254eb280dc",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

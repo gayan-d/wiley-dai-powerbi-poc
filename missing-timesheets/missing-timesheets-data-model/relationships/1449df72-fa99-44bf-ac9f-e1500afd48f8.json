@@ -1,0 +1,8 @@
+{
+  "name": "1449df72-fa99-44bf-ac9f-e1500afd48f8",
+  "fromTable": "V_RESOURCE_WITH_MISSING_TIME_CURRENT_WEEK",
+  "fromColumn": "WEEK_ENDING_DATE",
+  "toTable": "LocalDateTable_d620630f-3c50-46fe-a6f7-b8f4aa630246",
+  "toColumn": "Date",
+  "joinOnDateBehavior": "datePartOnly"
+}

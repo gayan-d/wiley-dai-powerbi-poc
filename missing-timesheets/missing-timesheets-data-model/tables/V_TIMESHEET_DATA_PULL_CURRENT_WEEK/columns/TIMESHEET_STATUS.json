@@ -1,0 +1,13 @@
+{
+  "name": "TIMESHEET_STATUS",
+  "dataType": "string",
+  "sourceColumn": "TIMESHEET_STATUS",
+  "lineageTag": "84169cbb-e214-42a6-a385-4a015c8c8407",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

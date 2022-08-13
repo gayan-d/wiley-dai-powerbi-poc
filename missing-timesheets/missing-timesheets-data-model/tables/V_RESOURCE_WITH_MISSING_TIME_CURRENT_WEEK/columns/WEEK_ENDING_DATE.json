@@ -1,0 +1,25 @@
+{
+  "name": "WEEK_ENDING_DATE",
+  "dataType": "dateTime",
+  "sourceColumn": "WEEK_ENDING_DATE",
+  "formatString": "General Date",
+  "lineageTag": "961856b4-a573-4b5d-8e6a-d19380ba6477",
+  "summarizeBy": "none",
+  "variations": [
+    {
+      "name": "Variation",
+      "relationship": "1449df72-fa99-44bf-ac9f-e1500afd48f8",
+      "defaultHierarchy": {
+        "table": "LocalDateTable_d620630f-3c50-46fe-a6f7-b8f4aa630246",
+        "hierarchy": "Date Hierarchy"
+      },
+      "isDefault": true
+    }
+  ],
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

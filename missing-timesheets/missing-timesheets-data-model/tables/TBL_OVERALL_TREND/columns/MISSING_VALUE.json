@@ -1,0 +1,17 @@
+{
+  "name": "MISSING_VALUE",
+  "dataType": "double",
+  "sourceColumn": "MISSING_VALUE",
+  "lineageTag": "dd1fd7cf-6e24-451a-9ac1-646af471305a",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

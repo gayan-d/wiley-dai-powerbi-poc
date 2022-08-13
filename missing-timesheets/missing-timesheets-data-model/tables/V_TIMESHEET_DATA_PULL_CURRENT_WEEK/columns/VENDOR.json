@@ -1,0 +1,13 @@
+{
+  "name": "VENDOR",
+  "dataType": "string",
+  "sourceColumn": "VENDOR",
+  "lineageTag": "5dff5b57-8e9c-406d-9d9b-db46874f6b75",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "INVESTMENT_PROGRAM",
+  "dataType": "string",
+  "sourceColumn": "INVESTMENT_PROGRAM",
+  "lineageTag": "4b48028e-96cd-425b-8c3d-1d3cf24ac96f",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "type": "calculated",
+  "name": "Week Ending",
+  "dataType": "string",
+  "isDataTypeInferred": true,
+  "expression": "Format(V_TIMESHEET_DATA_PULL_CURRENT_WEEK[WEEK_ENDING_DATE], \"dd-mmm-yy\")",
+  "lineageTag": "329b1cd0-a327-43bd-907a-03eae2032c45",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

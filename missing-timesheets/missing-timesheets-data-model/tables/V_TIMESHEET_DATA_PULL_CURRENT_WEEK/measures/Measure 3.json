@@ -1,0 +1,11 @@
+{
+  "name": "Measure 3",
+  "expression": "SUM(V_MISSING_TIMESHEET_COUNT_CURRENT_WEEK[TOTAL])",
+  "lineageTag": "1809a1e8-e89d-461e-b34f-46080a41d685",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

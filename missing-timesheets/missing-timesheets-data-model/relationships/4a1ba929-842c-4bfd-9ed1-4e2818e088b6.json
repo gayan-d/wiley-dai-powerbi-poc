@@ -1,0 +1,8 @@
+{
+  "name": "4a1ba929-842c-4bfd-9ed1-4e2818e088b6",
+  "fromTable": "V_MISSING_TIMESHEET_COUNT_CURRENT_WEEK",
+  "fromColumn": "SYS_INSERT_DATE",
+  "toTable": "LocalDateTable_0203c2e0-4c41-485e-b4a2-fb9aca762d52",
+  "toColumn": "Date",
+  "joinOnDateBehavior": "datePartOnly"
+}

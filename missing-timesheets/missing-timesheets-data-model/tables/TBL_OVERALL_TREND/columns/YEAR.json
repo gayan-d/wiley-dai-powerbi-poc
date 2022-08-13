@@ -1,0 +1,15 @@
+{
+  "type": "calculated",
+  "name": "YEAR",
+  "dataType": "string",
+  "isDataTypeInferred": true,
+  "expression": "\"FY\"&Format(TBL_OVERALL_TREND[WEEK_ENDING_DATE],\"YY\")+1",
+  "lineageTag": "af003f94-9860-4d13-8de2-11ed8ec40008",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

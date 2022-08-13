@@ -1,0 +1,13 @@
+{
+  "name": "CONTRACTOR_TYPE",
+  "dataType": "string",
+  "sourceColumn": "CONTRACTOR_TYPE",
+  "lineageTag": "5b178245-2ed5-43e2-8edb-3a7ffaec4636",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

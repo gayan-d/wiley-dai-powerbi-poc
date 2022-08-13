@@ -1,0 +1,6 @@
+{
+  "name": "Open Missing Timesheets (%)",
+  "expression": "[Measure 3]/[Measure 2]",
+  "formatString": "0.00%;-0.00%;0.00%",
+  "lineageTag": "2ea2452a-cd7d-4928-ab1b-11c86c0abdb3"
+}

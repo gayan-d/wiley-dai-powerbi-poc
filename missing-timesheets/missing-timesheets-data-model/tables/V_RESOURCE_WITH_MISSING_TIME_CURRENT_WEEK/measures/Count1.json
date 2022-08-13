@@ -1,0 +1,6 @@
+{
+  "name": "Count1",
+  "expression": "COUNTROWS(V_RESOURCE_WITH_MISSING_TIME_CURRENT_WEEK)",
+  "formatString": "0",
+  "lineageTag": "5bc5621e-0c14-4b6f-85cb-540c3fa821a3"
+}

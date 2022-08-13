@@ -1,0 +1,8 @@
+{
+  "name": "7b92a224-bd83-4b53-9210-d2fa41548760",
+  "fromTable": "TBL_OVERALL_TREND",
+  "fromColumn": "YEAR",
+  "toTable": "Year_Order",
+  "toColumn": "Year",
+  "crossFilteringBehavior": "bothDirections"
+}

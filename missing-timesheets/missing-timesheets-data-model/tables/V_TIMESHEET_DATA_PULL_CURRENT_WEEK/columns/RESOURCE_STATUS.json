@@ -1,0 +1,13 @@
+{
+  "name": "RESOURCE_STATUS",
+  "dataType": "string",
+  "sourceColumn": "RESOURCE_STATUS",
+  "lineageTag": "47003bcd-0412-44fa-93e1-f78d323c23a6",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

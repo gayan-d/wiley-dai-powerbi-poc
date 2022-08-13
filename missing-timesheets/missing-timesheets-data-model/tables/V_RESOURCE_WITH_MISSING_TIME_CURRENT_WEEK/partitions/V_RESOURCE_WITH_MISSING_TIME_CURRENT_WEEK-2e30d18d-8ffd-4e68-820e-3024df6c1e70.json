@@ -1,0 +1,16 @@
+{
+  "name": "V_RESOURCE_WITH_MISSING_TIME_CURRENT_WEEK-2e30d18d-8ffd-4e68-820e-3024df6c1e70",
+  "mode": "import",
+  "source": {
+    "type": "m",
+    "expression": [
+      "let",
+      "    Source = Odbc.DataSource(\"dsn=snowflake\", [HierarchicalNavigation=true]),",
+      "    PROD_EDW_Database = Source{[Name=\"PROD_EDW\",Kind=\"Database\"]}[Data],",
+      "    CLARITY_TIMESHEET_Schema = PROD_EDW_Database{[Name=\"CLARITY\",Kind=\"Schema\"]}[Data],",
+      "    V_RESOURCE_WITH_MISSING_TIME_CURRENT_WEEK_View = CLARITY_TIMESHEET_Schema{[Name=\"V_RESOURCE_WITH_MISSING_TIME_CURRENT_WEEK\",Kind=\"View\"]}[Data]",
+      "in",
+      "    V_RESOURCE_WITH_MISSING_TIME_CURRENT_WEEK_View"
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Year",
+  "dataType": "string",
+  "sourceColumn": "Year",
+  "lineageTag": "9379bbf5-1dfc-4a5c-8c13-0e1015a4ae3a",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

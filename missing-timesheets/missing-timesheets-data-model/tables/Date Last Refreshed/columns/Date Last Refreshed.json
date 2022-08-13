@@ -1,0 +1,25 @@
+{
+  "name": "Date Last Refreshed",
+  "dataType": "dateTime",
+  "sourceColumn": "Date Last Refreshed",
+  "formatString": "General Date",
+  "lineageTag": "17f7a2e8-4346-4d36-94b5-8fbc20a2f29a",
+  "summarizeBy": "none",
+  "variations": [
+    {
+      "name": "Variation",
+      "relationship": "c80b9f62-70e2-4026-a956-0838e87a069a",
+      "defaultHierarchy": {
+        "table": "LocalDateTable_71c50180-9409-4bad-a7cd-25a4d51469b0",
+        "hierarchy": "Date Hierarchy"
+      },
+      "isDefault": true
+    }
+  ],
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

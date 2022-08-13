@@ -1,0 +1,14 @@
+{
+  "name": "Index",
+  "dataType": "int64",
+  "sourceColumn": "Index",
+  "formatString": "0",
+  "lineageTag": "c85d98bd-b0a7-4f88-b229-1ad1a2a8a0a1",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "name": "1469964b-d82c-420a-baf0-e284c37c6ede",
+  "toCardinality": "many",
+  "fromTable": "V_RESOURCE_WITH_MISSING_TIME_CURRENT_WEEK",
+  "fromColumn": "SUBGROUP",
+  "toTable": "V_MISSING_TIMESHEET_COUNT_CURRENT_WEEK",
+  "toColumn": "SUBGROUP"
+}

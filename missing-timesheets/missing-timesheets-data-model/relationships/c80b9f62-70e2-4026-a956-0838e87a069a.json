@@ -1,0 +1,8 @@
+{
+  "name": "c80b9f62-70e2-4026-a956-0838e87a069a",
+  "fromTable": "Date Last Refreshed",
+  "fromColumn": "Date Last Refreshed",
+  "toTable": "LocalDateTable_71c50180-9409-4bad-a7cd-25a4d51469b0",
+  "toColumn": "Date",
+  "joinOnDateBehavior": "datePartOnly"
+}

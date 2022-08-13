@@ -1,0 +1,16 @@
+{
+  "name": "TBL_OVERALL_TREND-5460731f-40b3-4166-944c-1d14abd58b74",
+  "mode": "import",
+  "source": {
+    "type": "m",
+    "expression": [
+      "let",
+      "    Source = Odbc.DataSource(\"dsn=snowflake\", [HierarchicalNavigation=true]),",
+      "    PROD_EDW_Database = Source{[Name=\"PROD_EDW\",Kind=\"Database\"]}[Data],",
+      "    CLARITY_TIMESHEET_Schema = PROD_EDW_Database{[Name=\"CLARITY\",Kind=\"Schema\"]}[Data],",
+      "    TBL_OVERALL_TREND_Table = CLARITY_TIMESHEET_Schema{[Name=\"TBL_OVERALL_TREND\",Kind=\"Table\"]}[Data]",
+      "in",
+      "    TBL_OVERALL_TREND_Table"
+    ]
+  }
+}

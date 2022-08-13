@@ -1,0 +1,13 @@
+{
+  "name": "RESOURCE_COST_CENTER",
+  "dataType": "string",
+  "sourceColumn": "RESOURCE_COST_CENTER",
+  "lineageTag": "6fab5b03-2bcc-4b33-8531-3d5ee5371066",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

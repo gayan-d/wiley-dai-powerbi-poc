@@ -1,0 +1,8 @@
+{
+  "name": "LocalDateTable_d620630f-3c50-46fe-a6f7-b8f4aa630246-d8471eee-a72e-4ea4-b48c-3973fc67b5cb",
+  "mode": "import",
+  "source": {
+    "type": "calculated",
+    "expression": "Calendar(Date(Year(MIN('V_RESOURCE_WITH_MISSING_TIME_CURRENT_WEEK'[WEEK_ENDING_DATE])), 1, 1), Date(Year(MAX('V_RESOURCE_WITH_MISSING_TIME_CURRENT_WEEK'[WEEK_ENDING_DATE])), 12, 31))"
+  }
+}

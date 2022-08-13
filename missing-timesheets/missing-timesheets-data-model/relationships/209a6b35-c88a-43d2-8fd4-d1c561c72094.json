@@ -1,0 +1,8 @@
+{
+  "name": "209a6b35-c88a-43d2-8fd4-d1c561c72094",
+  "fromTable": "V_TIMESHEET_ALLOCATIONS_CURRENT_WEEK",
+  "fromColumn": "WEEK_ENDING_DATE",
+  "toTable": "LocalDateTable_9ac0f60a-e2ec-4264-a673-f80817ae3897",
+  "toColumn": "Date",
+  "joinOnDateBehavior": "datePartOnly"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "78c66cac-ac75-40bf-8eb6-df3041ac22df",
+  "fromTable": "V_TIMESHEET_DATA_PULL_CURRENT_WEEK",
+  "fromColumn": "SYS_INSERT_DATE",
+  "toTable": "LocalDateTable_c7f73ad4-3c0f-462c-b249-3c9f9091afca",
+  "toColumn": "Date",
+  "joinOnDateBehavior": "datePartOnly"
+}

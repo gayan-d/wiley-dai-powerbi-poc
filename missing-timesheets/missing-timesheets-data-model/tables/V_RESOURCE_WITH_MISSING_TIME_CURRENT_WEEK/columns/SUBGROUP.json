@@ -1,0 +1,13 @@
+{
+  "name": "SUBGROUP",
+  "dataType": "string",
+  "sourceColumn": "SUBGROUP",
+  "lineageTag": "561bf69d-2695-4f87-9772-cc6fddc4d1f2",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

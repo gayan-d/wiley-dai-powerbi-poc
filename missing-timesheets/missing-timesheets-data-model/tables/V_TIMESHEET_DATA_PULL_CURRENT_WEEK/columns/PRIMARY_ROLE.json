@@ -1,0 +1,13 @@
+{
+  "name": "PRIMARY_ROLE",
+  "dataType": "string",
+  "sourceColumn": "PRIMARY_ROLE",
+  "lineageTag": "56ad97cc-5d89-401a-9b55-7c44a7e7d3c6",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

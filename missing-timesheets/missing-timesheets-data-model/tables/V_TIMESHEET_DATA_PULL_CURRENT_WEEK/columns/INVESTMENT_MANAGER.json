@@ -1,0 +1,13 @@
+{
+  "name": "INVESTMENT_MANAGER",
+  "dataType": "string",
+  "sourceColumn": "INVESTMENT_MANAGER",
+  "lineageTag": "58b29511-84db-4146-a38d-3e0ad9bb4e1c",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

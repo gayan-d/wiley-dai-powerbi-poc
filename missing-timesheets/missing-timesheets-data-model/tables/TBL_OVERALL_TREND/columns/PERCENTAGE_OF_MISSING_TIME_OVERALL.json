@@ -1,0 +1,14 @@
+{
+  "name": "PERCENTAGE_OF_MISSING_TIME_OVERALL",
+  "dataType": "double",
+  "sourceColumn": "PERCENTAGE_OF_MISSING_TIME_OVERALL",
+  "formatString": "0.00%;-0.00%;0.00%",
+  "lineageTag": "5cbafe42-9662-49b3-92ce-7d3a34fa61f2",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

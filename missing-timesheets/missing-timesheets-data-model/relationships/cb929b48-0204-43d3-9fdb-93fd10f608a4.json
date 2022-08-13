@@ -1,0 +1,8 @@
+{
+  "name": "cb929b48-0204-43d3-9fdb-93fd10f608a4",
+  "fromTable": "TBL_OVERALL_TREND",
+  "fromColumn": "WEEK_ENDING_DATE",
+  "toTable": "LocalDateTable_c30d4f51-efb6-4bda-9cc4-1232192a17bf",
+  "toColumn": "Date",
+  "joinOnDateBehavior": "datePartOnly"
+}

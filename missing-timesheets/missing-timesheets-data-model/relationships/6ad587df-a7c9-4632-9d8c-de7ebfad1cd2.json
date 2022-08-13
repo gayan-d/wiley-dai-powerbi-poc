@@ -1,0 +1,8 @@
+{
+  "name": "6ad587df-a7c9-4632-9d8c-de7ebfad1cd2",
+  "fromTable": "TBL_OVERALL_TREND",
+  "fromColumn": "SYS_INSERT_DATE",
+  "toTable": "LocalDateTable_28cd53d4-72e2-45a2-9887-3ff407e30bc0",
+  "toColumn": "Date",
+  "joinOnDateBehavior": "datePartOnly"
+}

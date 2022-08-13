@@ -1,0 +1,13 @@
+{
+  "name": "INVESTMENT_STATUS",
+  "dataType": "string",
+  "sourceColumn": "INVESTMENT_STATUS",
+  "lineageTag": "a7d8c5a7-e029-43d7-a168-95681f860d1d",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

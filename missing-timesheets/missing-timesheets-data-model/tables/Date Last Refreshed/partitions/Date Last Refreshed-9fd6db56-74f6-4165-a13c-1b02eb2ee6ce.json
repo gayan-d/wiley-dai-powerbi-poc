@@ -1,0 +1,13 @@
+{
+  "name": "Date Last Refreshed-9fd6db56-74f6-4165-a13c-1b02eb2ee6ce",
+  "mode": "import",
+  "source": {
+    "type": "m",
+    "expression": [
+      "let",
+      "    Source = #table(type table[Date Last Refreshed=datetime], {{DateTime.LocalNow()}})",
+      "in",
+      "    Source"
+    ]
+  }
+}

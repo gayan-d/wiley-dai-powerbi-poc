@@ -1,0 +1,18 @@
+{
+  "name": "V_TIMESHEET_ALLOCATIONS_CURRENT_WEEK-53323aec-da4a-4939-8c8a-1952ac2c9b33",
+  "mode": "import",
+  "source": {
+    "type": "m",
+    "expression": [
+      "let",
+      "    Source = Odbc.DataSource(\"dsn=snowflake\", [HierarchicalNavigation=true]),",
+      "    PROD_EDW_Database = Source{[Name=\"PROD_EDW\",Kind=\"Database\"]}[Data],",
+      "    CLARITY_TIMESHEET_Schema = PROD_EDW_Database{[Name=\"CLARITY\",Kind=\"Schema\"]}[Data],",
+      "    V_TIMESHEET_ALLOCATIONS_CURRENT_WEEK_View = CLARITY_TIMESHEET_Schema{[Name=\"V_TIMESHEET_ALLOCATIONS_CURRENT_WEEK\",Kind=\"View\"]}[Data],",
+      "    #\"Added Conditional Column\" = Table.AddColumn(V_TIMESHEET_ALLOCATIONS_CURRENT_WEEK_View, \"VP_Name\", each if [VP] = null then \"Unassigned\" else [VP]),",
+      "    #\"Filtered Rows\" = Table.SelectRows(#\"Added Conditional Column\", each true)",
+      "in",
+      "    #\"Filtered Rows\""
+    ]
+  }
+}

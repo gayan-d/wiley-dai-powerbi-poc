@@ -1,0 +1,8 @@
+{
+  "name": "LocalDateTable_f1a72644-2978-446e-988f-38054a5f5a5d-c84f281d-935d-4e05-bee4-8ea1f81ced7e",
+  "mode": "import",
+  "source": {
+    "type": "calculated",
+    "expression": "Calendar(Date(Year(MIN('V_TIMESHEET_DATA_PULL_CURRENT_WEEK'[WEEK_STARTING_DATE])), 1, 1), Date(Year(MAX('V_TIMESHEET_DATA_PULL_CURRENT_WEEK'[WEEK_STARTING_DATE])), 12, 31))"
+  }
+}

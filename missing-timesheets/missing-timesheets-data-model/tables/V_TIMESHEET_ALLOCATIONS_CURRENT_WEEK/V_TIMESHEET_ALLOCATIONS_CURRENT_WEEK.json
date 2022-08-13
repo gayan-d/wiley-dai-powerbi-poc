@@ -1,0 +1,14 @@
+{
+  "name": "V_TIMESHEET_ALLOCATIONS_CURRENT_WEEK",
+  "lineageTag": "5f80224d-3992-45d3-bc99-ef490f791b7a",
+  "annotations": [
+    {
+      "name": "PBI_ResultType",
+      "value": "Table"
+    },
+    {
+      "name": "PBI_NavigationStepName",
+      "value": "Navigation"
+    }
+  ]
+}

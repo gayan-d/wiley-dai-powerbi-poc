@@ -1,0 +1,12 @@
+{
+  "name": "EST. Missing Time Value ($)",
+  "expression": "LOOKUPVALUE(TBL_OVERALL_TREND[MISSING_VALUE], TBL_OVERALL_TREND[WEEK_ENDING_DATE], LASTDATE(TBL_OVERALL_TREND[WEEK_ENDING_DATE]))",
+  "formatString": "\\$#,0.###############;(\\$#,0.###############);\\$#,0.###############",
+  "lineageTag": "6de2beb2-339a-43ea-888e-2c220392a164",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"currencyCulture\":\"en-US\"}"
+    }
+  ]
+}
