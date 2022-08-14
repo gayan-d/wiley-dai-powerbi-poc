@@ -1,6 +1,6 @@
 {
   "name": "WEEKLY_VALUE",
-  "dataType": "double",
+  "dataType": "decimal",
   "sourceColumn": "WEEKLY_VALUE",
   "lineageTag": "4f2de916-16bc-48db-9fa8-815ad8989988",
   "summarizeBy": "none",
