@@ -3,7 +3,7 @@
   "dataType": "double",
   "sourceColumn": "CUMULATIVE_MISSING_VALUE",
   "lineageTag": "82928a32-67e7-4014-9f7a-4b91bbe935aa",
-  "summarizeBy": "sum",
+  "summarizeBy": "none",
   "annotations": [
     {
       "name": "SummarizationSetBy",

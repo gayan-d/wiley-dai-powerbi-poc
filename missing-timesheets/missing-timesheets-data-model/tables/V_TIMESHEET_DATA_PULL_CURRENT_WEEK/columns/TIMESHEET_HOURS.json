@@ -3,7 +3,7 @@
   "dataType": "double",
   "sourceColumn": "TIMESHEET_HOURS",
   "lineageTag": "0ebd82b5-d430-44c2-b971-a13c02ce8d05",
-  "summarizeBy": "sum",
+  "summarizeBy": "none",
   "annotations": [
     {
       "name": "SummarizationSetBy",

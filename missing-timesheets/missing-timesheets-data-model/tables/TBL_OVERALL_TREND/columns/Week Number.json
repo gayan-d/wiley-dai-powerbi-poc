@@ -6,7 +6,7 @@
   "expression": "WEEKNUM(TBL_OVERALL_TREND[WEEK_ENDING_DATE])",
   "formatString": "0",
   "lineageTag": "5c6da449-8a95-4bd8-8936-29859e33377d",
-  "summarizeBy": "sum",
+  "summarizeBy": "none",
   "annotations": [
     {
       "name": "SummarizationSetBy",

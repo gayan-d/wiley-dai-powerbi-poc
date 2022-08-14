@@ -3,7 +3,7 @@
   "dataType": "double",
   "sourceColumn": "AVAILABILITY",
   "lineageTag": "707d744c-d55a-4b70-bb83-1e811536a81f",
-  "summarizeBy": "sum",
+  "summarizeBy": "none",
   "annotations": [
     {
       "name": "SummarizationSetBy",
